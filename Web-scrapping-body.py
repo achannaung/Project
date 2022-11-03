@@ -24,15 +24,6 @@ for string in tag.strings:
     print(string)
 
 
-# ```python
-# rows = soup.select(".stage-star-main-aside li.row")
-# for row in rows:
-#     divs = row.find_all("div", class_="content")
-#     attr_name = divs[0].get_text().strip()
-#     attr_value = divs[1].get_text().strip()
-#     print(f"{attr_name} = {attr_value}")
-# ```
-
 # In[5]:
 
 
